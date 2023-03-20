@@ -122,9 +122,9 @@ Namespace My
     Friend Module MySettingsProperty
         
         <Global.System.ComponentModel.Design.HelpKeywordAttribute("My.Settings")>  _
-        Friend ReadOnly Property Settings() As Global.VB_DOT_NET_TESTS.My.MySettings
+        Friend ReadOnly Property Settings() As Global.StudyX.My.MySettings
             Get
-                Return Global.VB_DOT_NET_TESTS.My.MySettings.Default
+                Return Global.StudyX.My.MySettings.Default
             End Get
         End Property
     End Module

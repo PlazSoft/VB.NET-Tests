@@ -27,8 +27,8 @@ Partial Class Form1
         '
         'cbMute
         '
-        Me.cbMute.Checked = Global.VB_DOT_NET_TESTS.My.MySettings.Default.Mute
-        Me.cbMute.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.VB_DOT_NET_TESTS.My.MySettings.Default, "Mute", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
+        Me.cbMute.Checked = Global.StudyX.My.MySettings.Default.Mute
+        Me.cbMute.DataBindings.Add(New System.Windows.Forms.Binding("Checked", Global.StudyX.My.MySettings.Default, "Mute", True, System.Windows.Forms.DataSourceUpdateMode.OnPropertyChanged))
         Me.cbMute.Font = New System.Drawing.Font("Arial", 8.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.cbMute.Location = New System.Drawing.Point(1, 229)
         Me.cbMute.Name = "cbMute"
